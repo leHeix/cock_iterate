@@ -20,6 +20,12 @@ public OnGameModeInit()
 public OnPlayerConnect(playerid)
 {
 	Iter_Add(Player, playerid);
+	
+	foreach(player : Player)
+	{
+		printf("Iterator passed by playerid %d", player);
+	}
+	
 	return 1;
 }
 
