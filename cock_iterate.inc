@@ -29,7 +29,7 @@ stock Iter_Add(iter, value)
 	if(index == -1)
 	{
 		// retarded shit with emit, just to reference my friend ysi. . . 
-		static const err[] == "lol wtf increase your iterators";
+		static const err[] = "lol wtf increase your iterators";
 
 		#emit push.c err
 		#emit push.c 1
