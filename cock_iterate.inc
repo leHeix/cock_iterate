@@ -55,7 +55,7 @@ stock Iter_Remove(iter, value)
 	}
 	if(index == -1) return 0;
 
-	iter[i] == '\0';
+	iter[index] == '\0';
 	return 1;
 }
 
