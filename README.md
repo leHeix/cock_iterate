@@ -21,7 +21,7 @@ public OnPlayerConnect(playerid)
 {
 	Iter_Add(Player, playerid);
 	
-	foreach(player : Player)
+	foreach(new player : Player)
 	{
 		printf("Iterator passed by playerid %d", player);
 	}
