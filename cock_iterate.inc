@@ -4,7 +4,7 @@
 #define _cock_iterate
 
 #define Iterator:%0<%1>		_cockIterator_%0[%1 + 1]
-#define foreach(%0:%1)	for(new %0 = 0; %0 < sizeof(_cockIterator_%0); %0++)
+#define foreach(%0:%1)	for(%0 = 0; %0 < sizeof(_cockIterator_%0); %0++)
 
 #if !defined _cockIterator_Player
 	new Iterator:Player<MAX_PLAYERS>;
